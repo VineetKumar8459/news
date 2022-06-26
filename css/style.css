@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(82, 77, 77);
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    border-radius: 40px;
+    
+    
+}
+.navbar a:hover{
+    text-decoration: underline red 2px;
+}
+.navbar button{
+    position: absolute;
+    left: 206px;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+.navbar button:hover{
+    color: brown;
+    background: yellow;
+}
+
+.navbar img{
+    position: absolute;
+    width: 110px;
+    left: 22px;
+    
+}
+.navbar{
+    position: absolute;
+    top: 16px;
+}
+.navbar-home{
+    right: 1000px;
+}
+.navbar-news{
+    right: 930px;
+}
+.navbar-sports{
+    right: 866px;
+}
+.navbar-Reel{
+    right: 806px;
+}
+.navbar-Worklife{
+    right: 720px;
+}
+.navbar-Travel{
+    right: 649px ;
+}
+.navbar-Future{
+    right: 573px;
+}
+.navbar-search{
+    right: 146px;
+    
+}
+.navbar-search input{
+    border-radius: 20px;
+    padding: 5px ;
+
+
+}
+
+.navbar-Culture{
+    right: 490px;
+}
+.first-container{
+    padding: 2% ;
+}
+.main-heading{
+    position: absolute;
+    left: 40px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.main-date{
+    position: absolute;
+    right: 60px;
+    font-family: sans-serif;
+    font-size: large;
+}
+.second-container{
+    padding: 2% 15%;
+    /* background-color: grey; */
+    height: 430px;
+    
+}
+.img-left{
+    position: absolute;
+}
+.img-left img{
+    position: absolute;
+    left: 5px;
+    width: 500px;
+    height: 365px;
+}
+.img-right{
+    position: absolute;
+    left: 750px;
+}
+.img-right-1{
+    position: absolute;
+}
+.img-right-2{
+    position: absolute;
+    left: 332px;
+}
+.img-right-3{
+    position: absolute;
+    top: 192px;
+    left: 332px;
+}
+.img-right-4{
+    position: absolute;
+    top: 192px;
+}
+.third-container{
+    display: flex;
+    justify-content: center;
+}
+.card1-img{
+    width: 450px;
+    height: 300px;
+    background-image: url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/13180/production/_125580287_jay2.jpg);
+    background-size: cover;
+}
+.card2-img{
+    width: 450px;
+    height: 300px;
+   background-image: url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/18279/production/_125573989_capture.png);
+    background-size: cover;
+}
+.card3-img{
+    width: 450px;
+    height: 300px;
+   background-image: url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/ACD8/production/_125584244_gettyimages-513701258.jpg);
+    background-size: cover;
+}
+.card{
+    /* background-color: aqua; */
+    height: 410px;
+    width: 450px;
+    margin: 15px;
+    text-align: left;
+}
+
+.fourth-container{
+    display: flex;
+    background-image: url(https://ychef.files.bbci.co.uk/1200x675/p08h02kk.jpg);
+    background-size: cover;
+    justify-content: center;
+    height: 374px;
+}
+.fourth-container-card{
+    height: 300px;
+    width: 250px;
+    margin: 72px;
+}
+.fourth-container-img1{
+    height: 233px;
+    width: 329px;
+    background-image: url(https://ychef.files.bbci.co.uk/432x243/p0cgj3hf.jpg);
+    background-size: cover;
+}
+.fourth-container-img2{
+    height: 233px;
+    width: 329px;
+    background-image: url(https://ychef.files.bbci.co.uk/432x243/p0cgdwz4.jpg);
+    background-size: cover;
+}
+.fourth-container-img3{
+    height: 233px;
+    width: 329px;
+    background-image: url(https://ychef.files.bbci.co.uk/432x243/p08llwlh.jpg);
+    background-size: cover;
+}
+.footer{
+    background-color: black;
+}
+.footer h1{
+    color: white;
+    padding-left: 20px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+.footer-content-1{
+    margin: 50px;
+}
+.footer-content-1 ul{
+    list-style-type: none;
+    border-left: 2px solid white;
+    /* border-style: dashed; */
+    padding-right: 5px;
+}
+.footer-content-1 ul li{
+    margin: 4px;
+    
+}
+.footer-content-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
